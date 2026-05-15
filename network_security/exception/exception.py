@@ -18,4 +18,3 @@ if __name__=="__main__":
         print("this wont printed")
     except Exception as e:
         raise NetworkSecurityException(e,sys)
-  
